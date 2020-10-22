@@ -129,7 +129,7 @@
   };
   
   window.redirectToES = function() {
-  var es_url = '../../ES_Response_no_Meta'
+  var es_url = '../../ES_Response_plain'
 	  alert(es_url);
 	window.location.replace(es_url);
     };
