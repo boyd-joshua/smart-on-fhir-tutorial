@@ -127,5 +127,11 @@
     $('#ldl').html(p.ldl);
     $('#hdl').html(p.hdl);
   };
+  
+  window.redirectToES = function(patient) {
+  var es_url = "https://boyd-joshua.github.io/smart-on-fhir-tutorial/example-smart-app/ES_Response.html"
+	window.location.replace(es_url);
+    }
+  };
 
 })(window);
