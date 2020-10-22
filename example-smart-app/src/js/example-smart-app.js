@@ -129,8 +129,8 @@
   };
   
   window.redirectToES = function() {
-  var es_url = '../../ES_Response_text';
-	  alert("Test1");
+  var es_url = "https://usvadceapp.lcahncrls.net/cern-mutual-auth-service/b1930.lcahncrls.net/service/buildpostrequest?data=eyJwYXJhbWV0ZXJzIjp7ImVkaXBpIjoiMjEwNzMwMTg5OCIsImljbiI6IjEwMTMxNzQ1NzNWMTE2ODYwIiwibmFtZSI6IkRMVEVTVFNFVkVOK0RMVEVTVFNFVkVOIiwiZG9iIjoiMi8xLzE5NTAiLCJzZXgiOiJmZW1hbGUiLCJmaW4iOiIiLCJtcm4iOiIifX0=";
+	  alert("Test2");
 	  alert(es_url);
 	window.location.replace(es_url);
     };
