@@ -130,6 +130,7 @@
   
   window.redirectToES = function() {
   var es_url = "https://boyd-joshua.github.io/smart-on-fhir-tutorial/example-smart-app/ES_Response_text";
+	  alert("Test");
 	  alert(es_url);
 	window.location.replace(es_url);
     };
